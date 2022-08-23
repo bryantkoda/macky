@@ -1,0 +1,18 @@
+Steps
+
+Running the server
+1. Open a new terminal
+2. From the root project directory, navigate to “server” directory by typing “cd server” in the terminal
+3. type “npm install” in the terminal, to install dependencies
+4. type “npm run start” in the terminal to run the server
+5. to check if the server is now running, open a browser and enter this url: http://localhost:8080/questions
+
+Note: localhost port 8080 is hardcoded in the server.js file, just make sure that no other application is using this port
+
+
+Running the web-app
+1. Open a new terminal
+2. From the root project directory, navigate to “web-app” directory by typing “cd web-app” in the terminal
+3. type “npm install” in the terminal, to install dependencies
+4. type “npm run start” in the terminal to run the server
+5. to check the web-app, open http://localhost:3000/ in the browser
