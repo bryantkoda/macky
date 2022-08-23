@@ -3,8 +3,8 @@ import { quizActions } from "./quizSlice";
 export const resetQuiz = () => {
   return async (dispatch) => {
     const fetchData = async () => {
-      const response = await fetch("http://localhost:8080/questions");
-      const data = await response.json();
+      const response = await fetch("https://opentdb.com/api.php?amount=10&difficulty=easy&type=boolean");
+      const { results: data } = await response.json();
       return data;
     };
 
